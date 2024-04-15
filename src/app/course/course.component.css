@@ -1,0 +1,66 @@
+.container-fluid {
+    background-color: aliceblue;
+    /* background-image: url('/assets/bg-1.png'); */
+    background-size: cover;
+    height: 100%;
+}
+
+li{
+    cursor: pointer;
+    &:hover{
+        color:blue;
+    }
+}
+
+.carousel.slide{
+    width: 50% !important;
+    height: auto !important;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.carousel img{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto;
+}
+
+.carousel-control-prev[type="button"],
+.carousel-control-next[type="button"] {
+    color: black; /* Set the color of the buttons to black */
+}
+
+.card{
+    padding: 10px;
+}
+
+.card img{
+    height: 100px;
+    width: auto;
+}
+
+/* X-Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel.slide {
+        width: 100% !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel.slide {
+        width: 60% !important;
+    }
+
+    .card-title{
+        font-size: 16px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carousel.slide {
+        width: 50% !important;
+    }
+}

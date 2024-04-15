@@ -1,0 +1,45 @@
+.container-fluid {
+    background-color: aliceblue;
+    /* background-image: url('/assets/bg-1.png'); */
+    background-size: cover;
+    height: 100%;
+}
+
+li{
+    cursor: pointer;
+    &:hover{
+        color:blue;
+    }
+}
+
+.card-img-top{
+    background-color: black;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Add a border */
+    text-align: center;
+}
+
+.row .col {
+    margin-top: 50px !important;
+    background-color: white;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Add a border */
+}
+
+.row .col img{
+    background: transparent !important;
+    height: 150px;
+    width: auto;
+}

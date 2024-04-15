@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #c6cdff !important;
+}
+
+.nav-item .nav-link{
+    cursor: pointer;
+    &:hover{
+        background-color: #000000;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+
+.container-fluid img{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+}

@@ -1,0 +1,22 @@
+.container-fluid {
+    background-color: aliceblue;
+    /* background-image: url('/assets/bg-1.png'); */
+    background-size: cover;
+    height: 100%;
+}
+
+img{
+    height: auto;
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        height: 100vh;
+    }
+
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+}
